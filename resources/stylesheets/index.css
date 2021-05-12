@@ -1,24 +1,6 @@
-.banner {
-  width: 40vw;
-  height: auto;
-  background-color: black;
-  background-image: url("../images/mobile-background.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position-x: 50%;
-  padding: 20px;
-  padding-top: 21%;
-}
-
-.banner-tag,
-.banner-header,
-.banner-description {
-  color: white;
-}
-
-.banner-button {
-  background-color: #c41239;
-  color: white;
-  height: 46px;
-  width: 100%;
+@import url("./banner.css");
+h1,
+p,
+button {
+  font-family: "Roboto", sans-serif;
 }
