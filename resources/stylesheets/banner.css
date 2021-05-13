@@ -18,11 +18,11 @@
 .banner-tag {
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 .banner-tag-icon {
   padding-right: 10px;
-  height: 30px;
+  height: 21px;
 }
 
 .banner > * {
@@ -36,12 +36,13 @@
 }
 
 .banner-header {
-  font-size: 30px;
-  width: 90%;
+  font-size: 22px;
+  width: 350px;
 }
 .banner-description {
   font-size: 20px;
-  width: 80%;
+  width: 60%;
+  font-weight: 400;
 }
 
 .banner-button-icon {
@@ -55,10 +56,10 @@
   padding: 20px 0;
   color: white;
   width: 92%;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-@media only screen and (min-width: 708px) {
+@media all and (min-width: 708px) {
   .banner {
     margin: 0 auto;
     background: none;
@@ -72,12 +73,12 @@
 
   .banner-header {
     width: 75%;
-    font-size: 3.9vw;
+    font-size: 3.5vw;
   }
 
   .banner-description {
-    width: 50%;
-    font-size: 2.2vw;
+    width: 45%;
+    font-size: 1.9vw;
   }
   .banner-button {
     background-color: transparent;
@@ -92,13 +93,14 @@
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media all and (min-width: 950px) {
   .banner-header {
-    font-size: 40px;
-    width: 800px;
+    font-size: 33px;
+    width: 700px;
   }
   .banner-description {
-    font-size: 21px;
-    width: 500px;
+    font-size: 18px;
+
+    width: 400px;
   }
 }
