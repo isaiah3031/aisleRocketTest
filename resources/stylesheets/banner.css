@@ -11,18 +11,18 @@
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding: 25px;
-  padding-top: 53%;
+  padding: 53% 35px 23%;
 }
 
 .banner-tag {
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-weight: 400;
+  font-size: 30px;
 }
 .banner-tag-icon {
   padding-right: 10px;
-  height: 21px;
+  height: 50px;
 }
 
 .banner > * {
@@ -36,12 +36,12 @@
 }
 
 .banner-header {
-  font-size: 22px;
-  width: 350px;
+  font-size: 48px;
+  width: 80%;
 }
 .banner-description {
-  font-size: 20px;
-  width: 60%;
+  font-size: 35px;
+  width: 80%;
   font-weight: 400;
 }
 
@@ -53,13 +53,13 @@
   background-color: #c41239;
   text-align: center;
   margin: 20px 0;
-  padding: 20px 0;
+  padding: 40px 0;
   color: white;
   width: 92%;
-  font-size: 15px;
+  font-size: 35px;
 }
 
-@media all and (min-width: 708px) {
+@media all and (min-device-width: 708px) {
   .banner {
     margin: 0 auto;
     background: none;
@@ -69,6 +69,15 @@
     width: 100vw;
     background-color: white;
     padding: 20px;
+    padding-bottom: 0;
+  }
+
+  .banner-tag {
+    font-size: 14px;
+  }
+
+  .banner-tag-icon {
+    height: 25px;
   }
 
   .banner-header {
@@ -85,6 +94,10 @@
     display: flex;
     align-items: center;
     color: #c41239;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 18px;
+    padding: 0;
   }
   .banner-button-icon {
     display: block;
@@ -93,7 +106,7 @@
   }
 }
 
-@media all and (min-width: 950px) {
+@media all and (min-device-width: 950px) and (max-device-width: 1800px) {
   .banner-header {
     font-size: 33px;
     width: 700px;
