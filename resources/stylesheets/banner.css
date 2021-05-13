@@ -11,7 +11,7 @@
   background-color: black;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  padding: 53% 35px 23%;
+  padding: 53% 70px 23%;
 }
 
 .banner-tag {
@@ -52,7 +52,8 @@
 .banner-button {
   background-color: #c41239;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px;
+  margin-left: 0px;
   padding: 40px 0;
   color: white;
   width: 92%;
